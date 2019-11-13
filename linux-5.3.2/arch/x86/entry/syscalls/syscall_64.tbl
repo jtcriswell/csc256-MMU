@@ -189,8 +189,8 @@
 178	64	query_module
 179	common	quotactl		__x64_sys_quotactl
 180	64	nfsservctl
-181	common	prinfo			__x64_sys_prinfo
-182	common	putpmsg
+181	common	readMMU			__x64_sys_readMMU
+182	common	writeMMU		__x64_sys_writeMMU
 183	common	afs_syscall
 184	common	tuxcall
 185	common	security
